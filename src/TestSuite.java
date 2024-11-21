@@ -10,7 +10,7 @@ public class TestSuite {
         pass &= basicTest("trash", "ashtray");
         pass &= basicTest("pigs eat trash", "igspay eatay ashtray");
         pass &= basicTest("Trash", "Ashtray");
-        pass &= basicTest("TrAsH", "AsHtray");
+        pass &= basicTest("TrAsH", "Ashtray");
         pass &= basicTest("Trash.", "Ashtray.");
         pass &= basicTest("clean-cut", "eanclay-utcay");
 
