@@ -9,8 +9,8 @@ public class App {
 
         Book translatedBook1 = PigLatinTranslator.translate(book1);
         translatedBook1.writeToFile("WhereTheWestBegins_PigLatin.txt");
-        book1.printlines(0, 2);
-        translatedBook1.printlines(0, 2);
+        book1.printlines(0, 15);
+        translatedBook1.printlines(0, 15);
 
         // Book 2: Translate "Romeo and Juliet"
         Book book2 = new Book();
@@ -20,7 +20,7 @@ public class App {
 
         Book translatedBook2 = PigLatinTranslator.translate(book2);
         translatedBook2.writeToFile("RomeoAndJuliet_PigLatin.txt");
-        book2.printlines(0, 2);
-        translatedBook2.printlines(0, 2);
+        book2.printlines(0, 15);
+        translatedBook2.printlines(0, 15);
     }
 }
